@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="close">Close</system:String>
+    <system:String x:Key="login">Login</system:String>
+    <system:String x:Key="language">Language</system:String>
+    <system:String x:Key="UserName">User Name</system:String>
+    <system:String x:Key="Password">Password</system:String>
+    <system:String x:Key="successkey">Authentication Successful</system:String>
+    <system:String x:Key="unsuccesskey">Authentication Failed</system:String>
+    <system:String x:Key="printer">Printer</system:String>
+    <system:String x:Key="printer2">Printer(2)</system:String>
+    <system:String x:Key="printer4">Printer(4)</system:String>
+    <system:String x:Key="printer7">Printer(7)</system:String>
+    <system:String x:Key="printertest2">Printer Test(2)</system:String>
+    <system:String x:Key="printertest4">Printer Test(4)</system:String>
+    <system:String x:Key="printertest7">Printer Test(7)</system:String>
+    <system:String x:Key="log">Log</system:String>
+</ResourceDictionary>
