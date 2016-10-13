@@ -36,8 +36,6 @@ namespace LPATest
             alltest.stop();
         }
 
-       
-
         private void Window_SizeChanged(object sender, SizeChangedEventArgs e)
         {
             try
