@@ -103,9 +103,7 @@ namespace LPATest
             if (typeItem.Content != null)
             {
                 string selectedCul = typeItem.Content.ToString();
-
                 this.Resources.MergedDictionaries.Add(Utils.GetResourceDict(selectedCul));
-
                 Utils.SetCulture(selectedCul);
             }
             else
