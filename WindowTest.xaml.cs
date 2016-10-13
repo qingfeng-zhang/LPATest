@@ -92,7 +92,20 @@ namespace LPATest
 
         private void SetLanguageDictionary()
         {
-            this.Resources.MergedDictionaries.Add(Utils.GetResourceDict(""));
+            this.Resources.MergedDictionaries.Add(Utils.GetResourceDict(Properties.Settings.Default.Culture));
+
+ 
+            //CultureList.SelectedValue= Properties.Settings.Default.Culture;
+
+            //Console.WriteLine("selected="+CultureList.SelectedValue);
+
+            foreach (ComboBoxItem item in CultureList.Items)
+            {
+                if (item.Content.ToString()== Properties.Settings.Default.Culture)
+                {
+                    CultureList.SelectedItem = item;
+                }
+            }
         }
         private void CultureList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {

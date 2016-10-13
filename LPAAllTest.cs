@@ -23,6 +23,7 @@ namespace LPATest
         public void stop()
         {
             bTerminate = true;
+            Printer2Thread.Interrupt();
             Printer2Thread.Join();
             Printer4Thread.Join();
             Printer7Thread.Join();
@@ -66,6 +67,7 @@ namespace LPATest
 
                 Thread.Sleep(30*1000);
             }
+
         }
         public void Printer4testTh(object msgobj)
         {
