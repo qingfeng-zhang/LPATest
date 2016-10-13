@@ -37,9 +37,7 @@ namespace LPATest
         }
         public static void SetCulture(string cult)
         {
-
             Properties.Settings.Default.Culture = cult;
-
             Properties.Settings.Default.Save();
         }
     }
